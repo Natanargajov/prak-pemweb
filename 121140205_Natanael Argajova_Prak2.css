@@ -1,0 +1,81 @@
+.container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background-color: rgb(151, 27, 233);
+}
+
+.head {
+    padding: 20px;
+    display: flex;
+    background-color: rgb(91, 89, 207);
+    justify-content: start;
+    align-items: center;
+}
+
+.gambar {
+    width: 140.984px;
+    height: 124.737px;
+    border-radius: 50%;
+}
+
+.side {
+    margin-left: 20px;
+    color: rgb(196, 211, 214);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255);
+
+}
+
+.menu {
+    list-style: none;
+    padding: 20px;
+}
+
+.tentang {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.tentang h2 {
+    color: rgb(90, 36, 228);
+}
+
+.tentang div {
+    display: flex;
+    justify-content: center;
+}
+
+.tentang video {
+    width: 300px;
+
+}
+
+.pengalaman {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pengalaman table {
+    width: 100%;
+}
+
+.form {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
