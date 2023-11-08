@@ -20,4 +20,4 @@ let hasilPerhitungan =  document.getElementById('hasilPerhitungan');
 }
 }
 
-// Natanael Argajova
+// Natanael Argajova 121140205 RB
