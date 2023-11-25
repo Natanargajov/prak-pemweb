@@ -10,7 +10,7 @@ class Subject {
     $this->email = $email;
   }
 
-  public function tampil() {
+  public function info() {
     echo "Nama: " . $this->nama . "\n"; 
     echo "NIM: " . $this->nim . "\n";
     echo "Alamat: " . $this->alamat . "\n";
@@ -20,9 +20,9 @@ class Subject {
 }
 
 $Subject1 = new Subject("Natanael Argajova", "121140205", "Korpri", "natanael.121140205@student.itera.ac.id");
-$Subject1->tampil();
+$Subject1->info();
 $Subject2 = new Subject("Toni Kurni", "125140101", "Kemiling" , "toni.125140101@student.itera.ac.id");
-$Subject2->tampil();
+$Subject2->info();
 
 //Natanael Argajova 121140205 RB
 ?>
